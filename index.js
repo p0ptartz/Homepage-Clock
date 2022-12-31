@@ -3,10 +3,25 @@ var minuteEl = document.getElementById("minute")
 var secondEl = document.getElementById("second")
 var amPmEl = document.getElementById("am-pm")
 
+
+// LIGHT MODE DARK MODE TOGGLE BY SWITCHING CSS FILES
+
+document.querySelector(".dark-mode").addEventListener("click", function () {
+    var css = document.getElementById("css-file");
+    var btn = document.querySelector(".dark-mode");
+
+    if (btn.textContent == "D") {
+        css.setAttribute("href", "dark.css")
+        btn.textContent = "L"
+    }
+    else {
+        css.setAttribute("href", "styles.css")
+        btn.textContent = "D"
+    }
+})
+
+
 // create function to run and update clock
-
-
-
 
 function runClock() {
 

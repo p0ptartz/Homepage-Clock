@@ -1,10 +1,12 @@
+/* SEPERATE CSS FILE FOR DARK MODE */
+
 :root {
     font-size: 62.5%;
 }
 
 body{
     align-items: center;
-    background-image: url("https://images.unsplash.com/photo-1562832135-14a35d25edef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1545&q=80");
+    background-image: url("https://images.unsplash.com/photo-1590907047706-ee9c08cf3189?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -17,7 +19,7 @@ body{
 }
 
 .dark-mode{
-    background-color: rgba(23, 42, 105, 0.559);
+    background-color: rgba(218, 226, 255, 0.769);
     border: none;
     border-radius: 10%;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.96);
@@ -32,21 +34,20 @@ body{
 }
 
 .dark-mode:hover{
-    background-color: rgba(49, 90, 226, 0.559);
+    background-color: rgba(40, 49, 80, 0.854);
 }
 
 .dark-mode:active{
-    background-color: rgba(23, 42, 105, 0.559);
-    box-shadow: 0px 0px 7px;
+    background-color: rgba(218, 226, 255, 0.769);
+    box-shadow: 0px 0px 10px;
 }
 h2 {
-    color: white;
+    color: rgba(236, 236, 236, 0.893);
     font-size: 2.6rem;
     letter-spacing: .5rem;
     margin: 15px 0;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.517);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.96);
 }
 
 .clock{ 
@@ -61,7 +62,7 @@ h2 {
 .clock span {
     align-items: center;
     background-color: rgba(7, 23, 62, 0.265);
-    color: white;
+    color: rgba(234, 234, 234, 0.893);
     display: flex;
     font-size: 6rem;
     height: 100px;
@@ -71,7 +72,7 @@ h2 {
 }
 
 .clock .text {
-    background-color: rgba(0, 4, 64, 0.824);
+    background-color: rgba(0, 2, 36, 0.824);
     font-size: 1.4rem;
     height: 30px;
     letter-spacing: 2px;
@@ -79,7 +80,7 @@ h2 {
 }
 
 .clock #am-pm{
-    background-color: rgba(0, 4, 64, 0.824);
+    background-color: rgba(0, 2, 36, 0.824);
     bottom: 0;
     font-size: 1.4rem;
     height: 30px;
@@ -97,16 +98,16 @@ h2 {
 }
 
 .links a {
-    color: white;
+    color: rgba(215, 215, 215, 0.893);
     letter-spacing: .3rem;
     text-decoration: none;
-    text-shadow: 2px 2px 4px rgba(128, 9, 74, 0.847);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.517);
-}
-
-.links a:hover {
-    color: rgb(21, 4, 25);
-    text-shadow: 2px 2px 4px rgba(128, 9, 74, 0.847);
+    text-shadow: 2px 2px 4px rgba(43, 43, 43, 0.669);
+    
     
 }
 
+.links a:hover {
+    color: rgb(255, 254, 255);
+    text-shadow: 2px 2px 4px rgba(255, 85, 179, 0.847);
+    
+}
